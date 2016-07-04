@@ -10,15 +10,19 @@ a {
 }
 
 .rm-container {
+	margin-top:20px;
+	margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
     position:absolute;
-    width: 960px;
-    height: 790px;
+    width: 500px;
+    height: 700px;
     border:1px solid;
     top:0px;
     bottom:0px;
     left:0px;
     right:0px;
-    margin:auto;
+ 
     background: rgba(236, 236, 236, 1);
     box-shadow:0px 0px 20px rgba(0,0,0,0.2);
     border-radius:10px;
@@ -81,8 +85,8 @@ a {
 .rm-messages {
     border:1px solid;
     position: relative;
-    height: 534px;
-    width: 692px;
+    height: 400px;
+    width: 300px;
     overflow-x:hidden;
     overflow-y:auto;
     background: rgb(255, 255, 255);
@@ -95,10 +99,10 @@ a {
 .rm-users {
     position:relative;
     border: 1px solid;
-    width: 243px;
+    width: 160px;
     padding: 5px;
     float:left;
-    height: 523px;
+    height: 400px;
     overflow-x: hidden;
     overflow-y: auto;
     background: rgb(250, 250, 250);
@@ -114,6 +118,7 @@ a {
 .users li {
 border-bottom:1px dashed;
 position:relative;
+height:50px;
 }
 
 .users li h5 {
@@ -135,7 +140,7 @@ position:relative;
     position:absolute;
     padding: 25px;
     margin:0px;
-    width: 908px;
+    width: 400px;
     font-size:20px;
     border:0px
 }
@@ -190,7 +195,7 @@ position:relative;
     top: 0px;
     bottom: 0px;
     /* display: block; */
-    width: 594px;
+    width: 200px;
     margin: auto;
     /* height: auto; */
     font-size: 17px;
