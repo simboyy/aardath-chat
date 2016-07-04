@@ -1,5 +1,5 @@
 {
-  "dbURL":" mongodb://simba:1994kingsss@ds023428.mlab.com:23428/heroku_44cvf56x",
+  "dbURL":"mongodb://simba:1994kingsss@ds023428.mlab.com:23428/heroku_44cvf56x",
   "sessionSecret":"thisismysecrettims",
   "fb":{
     "appID":"1441636482749627",
