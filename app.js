@@ -67,10 +67,9 @@ function setupENV(env){
     }));
   } else {
     // Production
-   app.use(session({
-   	secret:config.sessionSecret,
-    store: new ConnectMongo({ mongooseConnection: mongoose.connection })
-		}));
+    app.use(session({
+      secret:config.sessionSecret
+    }));
 
   }
 }
