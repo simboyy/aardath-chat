@@ -9,14 +9,14 @@
   "author": "Skyler Layne",
   "license": "ISC",
     "dependencies": {
-      "express": "4.2.0",
+      "express": "4.9.0",
       "hogan-express": "0.5.2",
-      "cookie-parser": "1.1.0",
+      "cookie-parser": "1.0.1",
       "express-session": "1.2.0",
-      "connect-mongo": "0.4.1",
-      "mongoose": "3.8.10",
+      "connect-mongo": "^0.8.1",
+      "mongoose": "~4.0.3",
       "passport": "0.2.0",
-      "passport-facebook": "1.0.3",
-      "socket.io": "0.9.17"
+      "passport-facebook": "latest",
+      "socket.io": "1.0.6"
     }
 }
