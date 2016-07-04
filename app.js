@@ -68,7 +68,7 @@ function setupENV(env){
   } else {
     // Production
    app.use(session({
-    store: new MongoStore({ mongooseConnection: mongoose.connection })
+    store: new ConnectMongo({ mongooseConnection: mongoose.connection })
 		}));
 
   }
