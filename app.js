@@ -67,14 +67,10 @@ function setupENV(env){
     }));
   } else {
     // Production
-    app.use(session({
-      secret:config.sessionSecret,
-      store: new ConnectMongo({
-        url:config.dbURL,
-        mongoose_connection:mongoose.connections[0],
-        stringify:true
-      }) // Store the DB connection in the user session
-    }));
+   app.use(session({
+    store: new MongoStore({ mongooseConnection: mongoose.connection })
+		}));
+
   }
 }
 
